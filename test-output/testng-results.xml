@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-30T16:55:25 IST" name="Default suite" finished-at="2025-06-30T16:55:33 IST" duration-ms="8455">
+    <groups>
+    </groups>
+    <test started-at="2025-06-30T16:55:25 IST" name="Default test" finished-at="2025-06-30T16:55:33 IST" duration-ms="8455">
+      <class name="assignements.OrangeHrmJob">
+        <test-method is-config="true" signature="OpenUrl()[pri:0, instance:assignements.OrangeHrmJob@6fefce9e]" started-at="2025-06-30T16:55:25 IST" name="OpenUrl" finished-at="2025-06-30T16:55:27 IST" duration-ms="2840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUrl -->
+        <test-method signature="AdminPage()[pri:0, instance:assignements.OrangeHrmJob@6fefce9e]" started-at="2025-06-30T16:55:28 IST" name="AdminPage" finished-at="2025-06-30T16:55:31 IST" duration-ms="3336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminPage -->
+        <test-method signature="Job()[pri:0, instance:assignements.OrangeHrmJob@6fefce9e]" started-at="2025-06-30T16:55:31 IST" name="Job" finished-at="2025-06-30T16:55:33 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Job -->
+        <test-method signature="Jobtitle()[pri:0, instance:assignements.OrangeHrmJob@6fefce9e]" started-at="2025-06-30T16:55:33 IST" name="Jobtitle" finished-at="2025-06-30T16:55:33 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Jobtitle -->
+      </class> <!-- assignements.OrangeHrmJob -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
