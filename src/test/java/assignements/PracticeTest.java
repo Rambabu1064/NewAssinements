@@ -41,7 +41,7 @@ public class PracticeTest {
 			List<WebElement> dropdownOptions = driver.findElements(By.xpath("//li[contains(@class, 'ui-menu-item')]/div"));
 			
 			for(WebElement options:dropdownOptions) {
-			if(options.getText().equalsIgnoreCase("ia")) {
+			if(options.getText().equalsIgnoreCase("India")) {
 			options.click();
 				}
 		    }
