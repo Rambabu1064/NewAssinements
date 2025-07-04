@@ -9,8 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-public class AmazonList {
+                                 //Info : Assignement 2 - Amazon Drop down X paths//
+public class Assignements2 {
 	WebDriver driver = new ChromeDriver();
 
 	@BeforeTest()

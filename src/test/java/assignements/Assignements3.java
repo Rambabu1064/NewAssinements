@@ -8,8 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-public class TestPages {
+                               //Info : Assignement3 - Test Pages X paths//
+public class Assignements3 {
 	
 	ChromeDriver driver = new ChromeDriver ();
 	

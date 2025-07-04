@@ -8,8 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-public class OrangeHrm {
+                              
+                             //Info : Assignement 1 - OrangeHrm Login //
+public class Assignement1{
 	ChromeDriver driver = new ChromeDriver();
 	WebDriverWait wait;
 	@BeforeTest

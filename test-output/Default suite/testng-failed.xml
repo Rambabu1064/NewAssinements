@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignements.OrangeHrmJob">
+      <class name="assignements.MouseOverActions">
         <methods>
-          <include name="Jobtitle"/>
-          <include name="Job"/>
           <include name="OpenUrl"/>
+          <include name="TestCase1"/>
         </methods>
-      </class> <!-- assignements.OrangeHrmJob -->
+      </class> <!-- assignements.MouseOverActions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
