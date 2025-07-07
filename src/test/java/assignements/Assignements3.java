@@ -23,19 +23,19 @@ public class Assignements3 {
 	@Test(priority = 1)
 	public void HtmlTableTag()
 	{
-		WebElement Alan = driver.findElement(By.xpath("//*[@id=\"mytable\"]/tbody/tr[2]/td[1]"));
+		WebElement Alan = driver.findElement(By.xpath("//td[text()='Alan']"));
 		 Alan.click();
 		System.out.println("Alan");
 		
-		 WebElement Bob = driver.findElement(By.xpath("/html/body/div/div[3]/div/table/tbody/tr[3]/td[1]"));
+		 WebElement Bob = driver.findElement(By.xpath("//td[text()='Bob']"));
 		 Bob.click();
 		 System.out.println("Bob");
 		 
-		 WebElement Aleister = driver.findElement(By.xpath("//*[@id=\"mytable\"]/tbody/tr[4]/td[1]"));
+		 WebElement Aleister = driver.findElement(By.xpath("//td[text()='Aleister']"));
 		 Aleister.click();
 		 System.out.println("Aleister");
 		 
-		 WebElement Douglas = driver.findElement(By.xpath("//*[@id=\"mytable\"]/tbody/tr[5]/td[1]"));
+		 WebElement Douglas = driver.findElement(By.xpath("//td[text()='Douglas']"));
 		 Douglas.click();
 		 System.out.println("Douglas");
 		 
@@ -43,19 +43,19 @@ public class Assignements3 {
 	  @Test(priority = 2)
 	  public void Amount() 
 	  {
-		  WebElement Amount1 = driver.findElement(By.xpath("//*[@id=\"mytable\"]/tbody/tr[2]/td[2]"));
+		  WebElement Amount1 = driver.findElement(By.xpath("//td[text()='12']"));
 		  Amount1.click();
 		  System.out.println("Amount1");
 		  
-		  WebElement Amount2 = driver.findElement(By.xpath("//*[@id=\"mytable\"]/tbody/tr[3]/td[2]"));
+		  WebElement Amount2 = driver.findElement(By.xpath("//td[text()='23']"));
 		  Amount2.click();
 		  System.out.println("Amount2");
 		  
-		  WebElement Amount3 = driver.findElement(By.xpath("//*[@id=\"mytable\"]/tbody/tr[4]/td[2]"));
+		  WebElement Amount3 = driver.findElement(By.xpath("//td[text()='33.3']"));
 		  Amount3.click();
 		  System.out.println("Amount3");
 		  
-		  WebElement Amount4 = driver.findElement(By.xpath("//*[@id=\"mytable\"]/tbody/tr[5]/td[2]"));
+		  WebElement Amount4 = driver.findElement(By.xpath("//td[text()='42']"));
 		  Amount4.click();
 		  System.out.println("Amount4");
 		  

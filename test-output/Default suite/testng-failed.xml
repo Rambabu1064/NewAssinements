@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignements.MouseOverActions">
+      <class name="assignements.Assignement8">
         <methods>
-          <include name="OpenUrl"/>
-          <include name="TestCase1"/>
+          <include name="Url"/>
+          <include name="Docs"/>
         </methods>
-      </class> <!-- assignements.MouseOverActions -->
+      </class> <!-- assignements.Assignement8 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
