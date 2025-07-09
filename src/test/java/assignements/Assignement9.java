@@ -26,9 +26,9 @@ public class Assignement9 {
 		
 		WebElement alertproperty=driver.findElement(By.id("alertbtn"));
 		alertproperty.click();
-		Alert alerttext=driver.switchTo().alert();
-		String alertbox=alerttext.getText();
-		System.out.println(alertbox);
+		
+		String text = driver.switchTo().alert().getText();
+		System.out.println(text);
 		driver.switchTo().alert().accept();
 	
 		}
@@ -40,9 +40,9 @@ public class Assignement9 {
 		
 		WebElement alertproperty=driver.findElement(By.id("confirmbtn"));
 		alertproperty.click();
-		Alert alerttext=driver.switchTo().alert();
-		String alertbox=alerttext.getText();
-		System.out.println(alertbox);
+		
+		String text = driver.switchTo().alert().getText();
+		System.out.println(text);
 		Thread.sleep(2000);
 		driver.switchTo().alert().accept();
 	}
@@ -54,9 +54,9 @@ public class Assignement9 {
 		
 		WebElement alertproperty=driver.findElement(By.id("confirmbtn"));
 		alertproperty.click();
-		Alert alerttext=driver.switchTo().alert();
-		String alertbox=alerttext.getText();
-		System.out.println(alertbox);
+		
+		String text = driver.switchTo().alert().getText();
+		System.out.println(text);
 		Thread.sleep(2000);
 		driver.switchTo().alert().dismiss();
 	}

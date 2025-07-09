@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-                           //Info : Assignement 8 - WindowHandles in rahul shetty//
+                           //Info : Assignement 8 - WindowHandle in rahul shetty//
 public class Assignement8 {
 	ChromeDriver driver = new ChromeDriver();
 	@BeforeTest()
@@ -34,7 +34,7 @@ public class Assignement8 {
 			 
 			 }
 			}
-		//QAClick Academy - A Testing Academy to Learn, Earn and Shine
+		//QAClick Academy - A Testing Academy to Learn, Earn and Shine  
 		System.out.println("Title of new window: " + driver.getTitle());
 		
 		driver.switchTo().window(parentWindow);
