@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignements.Assignements10">
+      <class name="assignements.Assignment12">
         <methods>
-          <include name="TestCase3"/>
-          <include name="TestCase4"/>
-          <include name="OpenUrl"/>
-          <include name="TestCase2"/>
+          <include name="TestCase1"/>
+          <include name="OpenURL"/>
         </methods>
-      </class> <!-- assignements.Assignements10 -->
+      </class> <!-- assignements.Assignment12 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
