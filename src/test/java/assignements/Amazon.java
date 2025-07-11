@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Amazon 
 {
 	// Automating the DropDown
+	//Code written by Rambabu
 
 	public static void main(String[] args) {
 		ChromeDriver driver = new ChromeDriver();
