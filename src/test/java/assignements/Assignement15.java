@@ -58,12 +58,24 @@ public class Assignement15 {
 		Thread.sleep(2000);
 		
 		WebElement assending = driver.findElement(By.xpath("//div[text()='Country']/following::span[text()='Ascending'][1]"));
-		
 		JavascriptExecutor JS = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", assending);
+		JS.executeScript("arguments[0].click();", assending);
+		
 		
 		//assending.submit();
 		
+		}
+	@Test(priority = 4)
+	public void Descending() 
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		// Scroll down by 500 pixels
+		js.executeScript("window.scrollBy(0, 100);");
 		
+        WebElement descending = driver.findElement(By.xpath("//div[text()='Country']/following::span[text()='Descending'][1]"));
+		
+		JavascriptExecutor Js = (JavascriptExecutor) driver;
+
+		Js.executeScript("arguments[0].click();",descending );
 	}
 }
