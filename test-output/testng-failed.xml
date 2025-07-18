@@ -5,7 +5,7 @@
     <classes>
       <class name="assignements.Assignements16">
         <methods>
-          <include name="TestCase"/>
+          <include name="TestCase2"/>
           <include name="OpenUrl"/>
         </methods>
       </class> <!-- assignements.Assignements16 -->

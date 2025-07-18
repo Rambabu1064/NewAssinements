@@ -80,7 +80,7 @@ public class Assignement13 {
 	}
 	
 	@Test(priority = 4)
-	public void Search() throws InterruptedException 
+	public void Search() 
 	{
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -93,6 +93,8 @@ public class Assignement13 {
 		
 		WebElement search = driver.findElement(By.xpath("//button[contains(@class,'secondary orangehrm-left-space') and text()=' Search ']"));
 		search.click();
+		
+		
 		
 		
 		
